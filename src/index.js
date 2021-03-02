@@ -9,6 +9,7 @@ module.exports = function towelSort (matrix) {
 			if (i % 2 !== 0) {
 				matrix[i].reverse();
 			} 
-		} matrix.flat();
+		} return matrix;
 	}
 }
+return matrix.flat();
